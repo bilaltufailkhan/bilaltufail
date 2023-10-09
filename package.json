@@ -1,11 +1,11 @@
 {
-  "name": "v4",
+  "name": "bilaltufail",
   "description": "Personal Website",
   "version": "1.0.0",
   "author": "Bilal Tufail <bilaltufailkhan.dev@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bilaltufailkhan/bilaltufailkhan"
+    "url": "https://github.com/bilaltufailkhan/bilaltufail"
   },
   "keywords": [
     "gatsby"

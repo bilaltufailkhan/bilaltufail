@@ -66,6 +66,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   });
 };
 
+process.setMaxListeners(150); // Adjust the number as needed
+
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
