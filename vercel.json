@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 1,
   "builds": [
     {
-      "src": "your_build_directory",
+      "src": "public",
       "use": "@vercel/node@14.16.0"
     }
   ]
