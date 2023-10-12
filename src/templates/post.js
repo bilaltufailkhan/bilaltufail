@@ -51,7 +51,13 @@ const StyledPostContent = styled.div`
 `;
 
 const PostTemplate = ({ data, location }) => {
-  const { frontmatter, html } = data.markdownRemark;
+  // const { frontmatter, html } = data?.markdownRemark;
+  const post = data?.markdownRemark;
+  if (!post) {
+    return null; // or render a loading/error message
+  }
+
+  const { frontmatter, html } = post;
   const { title, date, tags } = frontmatter;
 
   return (
