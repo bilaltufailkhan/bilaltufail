@@ -7,8 +7,9 @@ module.exports = {
       'Bilal Tufail is a software engineer specializing in building and occasionally designing exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Fiverr.',
     siteUrl: 'https://bilaltufailkhan.vercel.app/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@bilaltufail_dev',
   },
+  pathPrefix: '/bilaltufail',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,

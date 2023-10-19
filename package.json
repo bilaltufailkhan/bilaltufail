@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "bilaltufail",
+  "description": "Personal Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Bilal Tufail <bilaltufailkhan.dev@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/bilaltufailkhan/bilaltufail"
   },
   "keywords": [
     "gatsby"
@@ -13,6 +13,7 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-page -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",

@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
+title: 'Clock360'
 cover: './clock.png'
 github: 'https://github.com/bilaltufailkhan/clock360'
 external: 'https://vigorous-nightingale-f9f57f.netlify.app/'
