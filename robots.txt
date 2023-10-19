@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://bilaltufailkhan.vercel.app/bilaltufail/sitemap-index.xml
+Host: https://bilaltufailkhan.vercel.app
